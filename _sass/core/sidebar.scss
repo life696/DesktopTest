@@ -21,6 +21,7 @@
   }
 
   .caption {
+                              // 15
     color: lighten($theme-blue, 95%);
     font-weight: $font-weight-bold;
     line-height: 20px;
@@ -50,7 +51,7 @@
     .toc.current {
       // all expanded links
       a {
-        color: #404040;
+        color: #FF0000; // #404040
 
         &:hover {
           background: $theme-mask-white;
