@@ -1,6 +1,5 @@
-title: 测试用
-lang: en
-description: 持续更新中...
+title: jekyll-rtd-theme
+description: Just another documentation theme compatible with GitHub Pages
 
 theme: null
 
@@ -11,12 +10,6 @@ theme: null
 
 readme_index:
   with_frontmatter: true
-
-translate:
-
-  revision: V1.0
-
-
 
 plugins:
   - jemoji
