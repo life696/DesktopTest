@@ -51,7 +51,7 @@
     .toc.current {
       // all expanded links
       a {
-        color: #FF0000; // #404040
+        color: #FF0000; // #404040  不起作用
 
         &:hover {
           background: $theme-mask-white;
@@ -91,7 +91,9 @@
 
       > ul {
         @extend .d-block;
-        background: var(--toc-#{$level + 1});
+		
+		// var(--toc-#{$level + 1});
+        background: #FF0000
       }
 
       .level-#{$level + 1} > a {
