@@ -97,7 +97,8 @@
       }
 
       .level-#{$level + 1} > a {
-        padding-left: $spacer-4 * ($level + 0.5);
+	  //$spacer-4 * ($level + 0.5);
+        padding-left: 100
       }
     }
   }
