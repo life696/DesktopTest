@@ -59,8 +59,8 @@
         &.current {
           font-weight: bold;
           background: $theme-white;
-          border-top: 1px solid var(--toc-2);
-          border-bottom: 1px solid var(--toc-2);
+          border-top: 100px solid var(--toc-2);
+          border-bottom: 100px solid var(--toc-2);
         }
       }
       // parent links
